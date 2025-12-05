@@ -20,12 +20,20 @@ body {
 
 .about-me-section {
     display: flex;
+    flex-direction: row;
+    align-items: center;
     gap: 20px;
+    justify-content: space-around;
 }
 
 .about-image {
-    max-width: 50%;
+    max-width: 75%;
     border-radius: 100%;
     margin-bottom: 20px;
     display: block;
+}
+
+.about-me-text {
+    max-width: 600px;
+    text-align: left;
 }
