@@ -1,8 +1,18 @@
 {% extends "base.html" %}
 
-{% block title %}About Me{% endblock title %}
+{% block title %} About Me {% endblock title %}
+{% load static %}
 
 {% block content %}
-    <h1>About Me</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Harum, magnam! Quisquam, quod. Harum, magnam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Harum, magnam! Quisquam, quod. Harum, magnam!</p>
+    <section class="about-me-section">
+        <div>
+            <img  class="about-image" src="{% static 'img/OwnerTechStore3000.png' %}" alt="">
+        </div>
+        <div>
+            <h1>About Me</h1>
+            <h3>Zane Moon</h3>
+            <h5>Army Veteran | Future Software Developer</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Harum, magnam! Quisquam, quod. Harum, magnam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Harum, magnam! Quisquam, quod. Harum, magnam!</p>
+        </div>
+    </section>
 {% endblock content %}

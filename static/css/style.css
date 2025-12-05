@@ -3,3 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --body-color: #212529;
+    --text-color: #ffffff;
+    --font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: var(--body-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.about-me-section {
+    display: flex;
+    gap: 20px;
+}
+
+.about-image {
+    max-width: 50%;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    display: block;
+}
