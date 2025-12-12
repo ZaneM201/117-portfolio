@@ -40,8 +40,32 @@ body {
 
 /* Experience Section */
 
-.experience-card {
+.experience-section {
+    padding: 2rem 1rem;
+    margin: 3rem 0px;
+}
 
+.experience-card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 25rem;
+    padding: .5rem 1rem;
+    gap: .5rem;
+    border-radius: 6px;
+}
+
+.experience-card:hover {
+    opacity: 0.5;
+    border: 1px solid var(--text-color);
+}
+
+.experience-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 2rem;
+    margin-top: 2rem;
 }
 
 /* Projects Section */
@@ -54,4 +78,26 @@ body {
     width: 100%;
     border-radius: 6px;
     border: 1px solid #343a40;
+}
+
+.project-card {
+    width: 25rem;
+    padding: 1rem;
+    border-color: var(--body-color);
+    border: 1px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.project-card:hover {
+    border: 1px solid var(--text-color);
+    opacity: 0.7;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 3rem;
+    margin-top: 2rem;
 }
